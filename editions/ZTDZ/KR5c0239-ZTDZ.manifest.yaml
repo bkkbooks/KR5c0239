@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0239/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0239/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 抱朴子養生論
+  date: '2015-08-29 00:54:52.200441'
+  source:
+    repository: kanripo
+    path: KR5c0239
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0239_000-ZTDZ.yaml, hash: 'sha256:6b2ee134f2568c3dd3d8af7673874725473d6550595f929bac615c779c354956'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0239_000-ZTDZ.markers.yaml, hash: 'sha256:35b3dad605c8cf53335c95ebe32122f594eb84b85b896b2aa09cff3f6c45b237'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0239_SJB_000-180492c
+    span:
+    - body
+    - 0
+    - 664
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:026b63671c051b57d370062ae63ea8d9d098117873a0b0ea5ffd9d51ca89361f
